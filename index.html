@@ -18,7 +18,7 @@
 				<a href="/" class="logo">Афродита</a>
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class="menu__item">
+						<li class="menu__item menu__item--active">
 							<a href="index.html" class="menu__link">Главная</a>
 						</li>
 						<li class="menu__item">
@@ -31,7 +31,7 @@
 				</nav>
 				<div class="contacts">
 					<a href="tel:+78000039210" class="contacts__phone">
-						8(800) 00-392-10
+						8 (800) 00-392-10
 					</a>
 					<div class="contacts__schedule">
 						<span class="contacts__working-hours">График работы</span>
@@ -103,7 +103,7 @@
 		</section>
 		<section class="news-block">
 			<div class="container">
-				<h4 class="section__inner">
+				<div class="section__inner">
 					<h2 class="section-title section-title--center">Последние новости</h2>
 					<ul class="news">
 						<li class="news__item">
@@ -143,9 +143,84 @@
               </div>
 						</li>
 					</ul>
+					<aside class="top-news">
+						<h4 class="top-news__title">Топ новостей</h4>
+						<time class="top-news__date">За сентябрь</time>
+						<ul class="top-news__list">
+							<a href="#" class="top-news__link">
+								<img src="./assets/img/top-news-one.jpg" alt="Image for the first news">
+							</a>
+							<a href="#" class="top-news__link">
+								<img src="./assets/img/top-news-two.jpg" alt="Image for the second news">
+							</a>
+							<a href="#" class="top-news__link">
+								<img src="./assets/img/top-news-three.jpg" alt="Image for the third news">
+							</a>
+						</ul>
+					</aside>
+					<div class="pagination">
+						<div class="pagination__text">Страница 1 из 7</div>
+						<div class="pagination__controlls">
+							<a href="#" class="pagination__prev"></a>
+							<ul class="pagination__list">
+								<li class="pagination__item pagination__item--active">
+									<a href="#" class="pagination__link">1</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">2</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">3</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">4</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">5</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">6</a>
+								</li>
+								<li class="pagination__item">
+									<a href="#" class="pagination__link">7</a>
+								</li>
+							</ul>
+							<a href="" class="pagination__next"></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
+		<footer class="footer bg-dark">
+			<div class="container">
+				<div class="general-info">
+					<p class="general-info__text">Сделано с любовью и старанием <br>
+							на курсе «HTML + CSS» в <a href="https://loftschool.com" class="general-info__link"><b>LoftSchool</b></a>.</p>
+					<p class="general-info__text">Автор работы: <b>Прохладов Вадим</b></p>
+				</div>
+				<a href="/" class="logo">Афродита</a>
+				<div class="social-contacts">
+					<h4 class="social-contacts__title">Наши социальные сети</h4>
+					<ul class="social-contacts__list">
+						<li class="social-contacts__item">
+							<a href="https://vk.com" class="social-contacts__link"></a>
+						</li>
+						<li class="social-contacts__item">
+							<a href="https://facebook.com" class="social-contacts__link"></a>
+						</li>
+						<li class="social-contacts__item">
+							<a href="https://plus.google.com" class="social-contacts__link"></a>
+						</li>
+						<li class="social-contacts__item">
+							<a href="https://twitter.com" class="social-contacts__link"></a>
+						</li>
+						<li class="social-contacts__item">
+							<a href="mailto:" class="social-contacts__link"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
 	</div>
 </body>
 
