@@ -3,7 +3,8 @@
 @font-face {
   font-family: 'Gora_Free';
   src: url('../fonts/gora-free-webfont.woff2') format('woff2'),
-       url('../fonts/gora-free-webfont.woff') format('woff');
+       url('../fonts/gora-free-webfont.woff') format('woff'),
+       url('../fonts/Gora-Free.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 
