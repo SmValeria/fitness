@@ -1,0 +1,18 @@
+.cta {
+    background-image: url('../../img/pattern-bg.png');
+    padding-top: 21px;
+    padding-bottom: 30px;
+}
+
+.cta__info {
+    max-width: 665px;
+    margin: 0 auto;
+    font-size: 1.286em;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+
+.cta__link {
+    color: #f89513;
+    font-weight: 700;
+}

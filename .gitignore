@@ -1,3 +1,8 @@
 .vscode/
+.idea/
+node_modules
+.sublime-gulp.cache
+gulpfile.js
+package.json
 *.exe
 *.cfg

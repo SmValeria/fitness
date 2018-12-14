@@ -1,0 +1,67 @@
+.social-contacts__wrapper {
+    width: fit-content;
+    margin-left: auto;
+}
+.social-contacts__title {
+    font-weight: 700;
+    line-height: 1.8em;
+}
+
+.social-contacts__list {
+    display: flex;
+}
+.social-contacts__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-contacts__link {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #d0d0d0;
+}
+
+.social-contacts__link::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('../../img/sprites.png');
+}
+
+.social-contacts__link:hover {
+    background-color: #f89513;
+}
+
+.social-contacts__link--vk::before {
+    background-position: -145px -370px;
+    width: 12px;
+    height: 7px;
+}
+
+.social-contacts__link--fb::before {
+    background-position: -145px -426px;
+    width: 6px;
+    height: 13px;
+}
+
+.social-contacts__link--google::before {
+    background-position: -145px -332px;
+    width: 15px;
+    height: 9px;
+}
+
+.social-contacts__link--tw::before {
+    background-position: -145px -387px;
+    width: 11px;
+    height: 9px;
+}
+
+.social-contacts__link--mail::before {
+    background-position: -145px -351px;
+    width: 12px;
+    height: 9px;
+}

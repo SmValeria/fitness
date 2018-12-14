@@ -1,0 +1,58 @@
+.schedule {
+    position: relative;
+}
+
+.schedule__title {
+    color: #f89513;
+    border-bottom: 1px solid #f89513;
+}
+
+.schedule:hover .schedule__title {
+    color: #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
+.schedule__dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -100vh;
+    right: 0;
+    width: 163px;
+    height: 81px;
+    box-shadow: 0 0 10px rgba(23, 59, 117, 0.55);
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 4px 0 4px 4px;
+    line-height: 1.4em;
+    transition: top 0.3s ease-out;
+}
+
+.schedule__dropdown::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-100%);
+    width:0;
+    height: 0;
+    border: 20px solid;
+    border-color: transparent transparent rgba(255, 255, 255, 0.95) transparent;
+}
+
+.schedule__days {
+    color: #f89513;
+    font-weight: 700;
+}
+
+.schedule__break {
+    color: #221f1f;
+    font-weight: 300;
+}
+
+.schedule:hover .schedule__dropdown {
+    top: 260%;
+    transition: top 0.3s ease-out;
+}

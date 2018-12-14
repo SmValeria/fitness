@@ -1,0 +1,14 @@
+.news-block {
+    padding-top: 58px;
+    padding-bottom: 50px;
+}
+
+.news-block__title {
+    margin-bottom: 68px;
+}
+
+.news-block__content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 17px;
+}

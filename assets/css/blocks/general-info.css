@@ -1,0 +1,12 @@
+.general-info {
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.general-info__link {
+    border-bottom: 1px solid #ffffff;
+}
+
+.general-info__link:hover {
+    color: inherit;
+}

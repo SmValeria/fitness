@@ -1,0 +1,123 @@
+.feedback {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.feedback__form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 70px 28px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.feedback__heading {
+    font-size: 3.5em;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.feedback__row {
+    display: flex;
+    margin-left: -11px;
+    margin-right: -11px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    font-weight: 300;
+}
+
+.feedback__col {
+    padding-left: 11px;
+    padding-right: 11px;
+    flex-grow: 1;
+}
+
+.feedback__label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.feedback__input {
+    width: 100%;
+    padding: 15px 9px;
+    color: #221f1f;
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.feedback__input:focus,
+.feedback__input--textarea {
+    border: 1px solid #f89513;
+}
+
+.feedback__input--textarea {
+    padding-top: 7px;
+    min-height: 90px;
+}
+.feedback__radio-wrap {
+    display: inline-flex;
+}
+.feedback__radio {
+    position: absolute;
+    left: -150vw;
+}
+
+.feedback__answer {
+    position: relative;
+    margin-right: 20px;
+}
+
+.feedback__answer::before {
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    border: 1px solid #c9c9c9;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.feedback__answer::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 10.5px;
+    left: 10.5px;
+    background-color: #f89513;
+    border-radius: 50%;
+    transition: all 0.2s ease-out;
+}
+.feedback__radio:checked + .feedback__answer {
+    color: #f89513;
+}
+
+.feedback__radio:checked + .feedback__answer::after {
+    width: 8px;
+    height: 8px;
+    top: 6.5px;
+    left: 6.5px;
+    transition: all 0.2s ease-out;
+}
+
+.feedback__radio:checked + .feedback__answer::before {
+    border-color: #f89513;
+}
+
+.feedback__btn {
+    padding: 16px 20px;
+    background-color: #1c1f1d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 0.857em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-left: auto;
+}
+
+.feedback__btn:hover {
+    background-color: #f89513;
+}

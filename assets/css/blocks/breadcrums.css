@@ -1,0 +1,30 @@
+.breadcrums {
+    padding-top: 44px;
+    padding-bottom: 16px;
+}
+
+.breadcrums__list {
+    display: flex;
+    align-items: center;
+}
+.breadcrums__item {
+    color: #f9aa42;
+}
+
+.breadcrums__item:not(:last-child)::after {
+    content: '\2044';
+    color: #727070;
+    border-bottom-color: transparent;
+    margin: 0 3px;
+}
+
+.breadcrums__link {
+    font-weight: 300;
+    font-style: italic;
+    border-bottom: 1px solid #f9aa42;
+}
+
+.breadcrums__item--active .breadcrums__link {
+    color: #727070;
+    border-bottom-color: transparent;
+}

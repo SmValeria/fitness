@@ -1,0 +1,54 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pagination__controlls,
+.pagination__list {
+    display: flex;
+    align-items: center;
+}
+
+.pagination__list {
+    margin: 0 15px;
+}
+
+.pagination__text {
+    font-weight: 300;
+    color: #656464;
+    margin-right: 18px;
+}
+
+.pagination__prev,
+.pagination__next {
+    width: 6px;
+    height: 10px;
+    background-image: url('../../img/sprites.png');
+    background-position: -145px -406px;
+    background-repeat: no-repeat;
+}
+
+.pagination__prev {
+    transform: rotate(180deg);
+    opacity: 0.3;
+}
+
+.pagination__item {
+    font-weight: 700;
+    color: #221f1f;
+    padding: 5px 10px;
+}
+
+.pagination__item--active {
+    background-color: #27273e;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: default;
+}
+
+.pagination__item--active:hover a{
+    color: #ffffff;
+}

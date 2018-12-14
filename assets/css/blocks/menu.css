@@ -1,0 +1,65 @@
+.menu__list {
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.menu__item {
+    font-size: 0.86em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.menu__item:not(:last-child) {
+    margin-right: 26px;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+}
+
+.menu__link::before {
+    content: '';
+    margin-right: 15px;
+    display: flex;
+    background: url("../../img/sprites.png") center no-repeat;
+}
+
+.menu__link--main::before {
+    background-position: -136px -633px;
+    width: 19px;
+    height: 14px;
+}
+
+.menu__link--comments::before {
+    background-position: -77px -624px;
+    width: 20px;
+    height: 18px;
+}
+
+.menu__link--services::before {
+    background-position: -76px -652px;
+    width: 19px;
+    height: 14px;
+}
+
+.menu__item--active {
+    color: #f89513;
+}
+
+.menu__item--active .menu__link--main::before,
+.menu__item:hover .menu__link--main::before {
+    background-position: -107px -633px;
+}
+
+.menu__item--active .menu__link--comments::before,
+.menu__item:hover .menu__link--comments::before{
+    background-position: -47px -624px;
+}
+
+.menu__item--active .menu__link--services::before,
+.menu__item:hover .menu__link--services::before{
+    background-position: -47px -652px;
+}
