@@ -19,7 +19,7 @@
 .pagination__text {
     font-weight: 300;
     color: #656464;
-    margin-right: 18px;
+    margin-right: 20px;
 }
 
 .pagination__prev,
@@ -27,7 +27,7 @@
     width: 6px;
     height: 10px;
     background-image: url('../../img/sprites.png');
-    background-position: -145px -406px;
+    background-position: -5px -5px;
     background-repeat: no-repeat;
 }
 
@@ -39,7 +39,7 @@
 .pagination__item {
     font-weight: 700;
     color: #221f1f;
-    padding: 5px 10px;
+    padding: 5px 8px;
 }
 
 .pagination__item--active {

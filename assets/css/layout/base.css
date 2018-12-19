@@ -66,6 +66,7 @@ table {
 }
 
 img {
+    display: block;
     max-width: 100%;
     height: auto;
 }
@@ -74,6 +75,7 @@ a,
 a:visited{
     color: inherit;
     text-decoration: none;
+    transition: 0.3s;
 }
 a:hover,
 a:active {
@@ -103,4 +105,43 @@ address {
 
 .footer {
     margin-top: auto;
+}
+
+.col-one-third {
+    flex-basis: calc(100%/3);
+    min-width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.btn {
+    padding: 16px 20px;
+    background-color: #1c1f1d;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 0.857em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    display: block;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #f89513;
 }

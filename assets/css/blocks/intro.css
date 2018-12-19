@@ -1,0 +1,50 @@
+.intro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                 url("../../img/bg-intro.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.intro__main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: appearance, pulse;
+    animation-fill-mode: backwards, both;
+    animation-duration: 1s, 0.2s;
+    animation-delay: 1s, 1.3s;
+    animation-timing-function: cubic-bezier(.39,-0.31,.37,1.22);
+    animation-iteration-count: 1, 6;
+    animation-direction: alternate;
+}
+
+.intro__logo {
+    margin-bottom: 40px;
+}
+
+.intro__link:hover {
+    color: inherit;
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(0.9);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes appearance {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        transform: scale(0.9);
+    }
+}

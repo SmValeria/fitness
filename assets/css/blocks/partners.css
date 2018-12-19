@@ -6,15 +6,21 @@
 }
 .partners__list {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .partners__item {
-    flex-basis: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 260px;
     flex-grow: 1;
-    text-align: center;
     margin-bottom: 46px;
+}
+.partners__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partners__logo {

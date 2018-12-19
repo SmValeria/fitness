@@ -1,5 +1,7 @@
 .contacts {
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
     font-weight: 700;
 }
 .contacts__phone{

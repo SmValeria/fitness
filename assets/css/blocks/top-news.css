@@ -43,9 +43,4 @@
 
 .top-news__item:hover .top-news__link::after {
     opacity: 0;
-    transition: opacity 0.2s ease-in;
-}
-
-.top-news__img {
-    display: flex;
 }

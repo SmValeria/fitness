@@ -1,7 +1,8 @@
-.social-contacts__wrapper {
-    width: fit-content;
-    margin-left: auto;
+.social-contacts {
+    display: flex;
+    justify-content: flex-end;
 }
+
 .social-contacts__title {
     font-weight: 700;
     line-height: 1.8em;
@@ -37,31 +38,31 @@
 }
 
 .social-contacts__link--vk::before {
-    background-position: -145px -370px;
+    background-position: -10px -120px;
     width: 12px;
     height: 7px;
 }
 
 .social-contacts__link--fb::before {
-    background-position: -145px -426px;
+    background-position: -26px -10px;
     width: 6px;
     height: 13px;
 }
 
 .social-contacts__link--google::before {
-    background-position: -145px -332px;
+    background-position: -89px -38px;
     width: 15px;
     height: 9px;
 }
 
 .social-contacts__link--tw::before {
-    background-position: -145px -387px;
+    background-position: -129px -91px;
     width: 11px;
     height: 9px;
 }
 
 .social-contacts__link--mail::before {
-    background-position: -145px -351px;
+    background-position: -10px -67px;
     width: 12px;
     height: 9px;
 }

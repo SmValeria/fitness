@@ -4,5 +4,8 @@
     font-family: 'Gora_Free', sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+}
+
+.logo--center {
     text-align: center;
 }

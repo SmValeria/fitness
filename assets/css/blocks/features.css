@@ -9,8 +9,9 @@
 
 .features__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 778px;
+    max-width: 73%;
     margin: 0 auto;
 }
 
@@ -38,19 +39,19 @@
 }
 
 .features__icon--flower::before {
-    background-position: -10px -624px;
+    background-position: -47px -33px;
     width: 27px;
     height: 31px;
 }
 
 .features__icon--favorite-star::before {
-    background-position: -114px -552px;
+    background-position: -119px -5px;
     width: 32px;
     height: 32px;
 }
 
 .features__icon--painter::before {
-    background-position: -114px -594px;
+    background-position: -119px -47px;
     width: 28px;
     height: 29px;
 }

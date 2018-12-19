@@ -7,12 +7,6 @@
     border-bottom: 1px solid #f89513;
 }
 
-.schedule:hover .schedule__title {
-    color: #cdcdcd;
-    border-bottom: 1px solid #cdcdcd;
-    cursor: pointer;
-}
-
 .schedule__dropdown {
     position: absolute;
     display: flex;
@@ -28,7 +22,8 @@
     border-radius: 4px 0 4px 4px;
     line-height: 1.4em;
     opacity: 0;
-    transition: top 1s, opacity 0.7s;
+    transition: top 0.7s cubic-bezier(.57,-0.35,.46,1.29),
+                opacity 1s ease-in;
 }
 
 .schedule__dropdown::before {
@@ -63,8 +58,13 @@
     font-weight: 300;
 }
 
+.schedule:hover .schedule__title {
+    color: #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+    cursor: pointer;
+}
+
 .schedule:hover .schedule__dropdown {
-    top: 260%;
+    top: 240%;
     opacity: 1;
-    transition: top 1s, opacity 0.6s;
 }

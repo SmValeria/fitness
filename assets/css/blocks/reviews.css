@@ -9,18 +9,3 @@
 .reviews__item {
     padding-bottom: 21px;
 }
-.reviews__item:first-child .reviews__image{
-    background-image: url('../../img/review-logo-1.jpg');
-}
-
-.reviews__item:last-child .reviews__image{
-    background-image: url('../../img/review-logo-3.jpg');
-}
-
-.reviews__item:nth-child(2) .reviews__image{
-    background-image: url('../../img/review-logo-2.jpg');
-}
-
-.reviews__item:nth-child(3) .reviews__image{
-    background-image: url('../../img/none-logo.png');
-}

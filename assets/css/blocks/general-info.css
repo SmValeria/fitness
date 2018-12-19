@@ -3,6 +3,9 @@
     line-height: 1.2;
 }
 
+.general-info__text {
+    max-width: 276px;
+}
 .general-info__link {
     border-bottom: 1px solid #ffffff;
 }

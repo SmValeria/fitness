@@ -18,11 +18,11 @@
 <div class="wrapper">
     <!--Block header-->
     <header class="header bg-dark">
-        <div class="container header__container">
-            <div class="logo">
-                <a href="/" class="logo__link">Афродита</a>
+        <div class="container container--flex">
+            <div class="logo col-one-third">
+                <a href="./index.html" class="logo__link">Афродита</a>
             </div>
-            <nav class="menu">
+            <nav class="menu col-one-third">
                 <ul class="menu__list">
                     <li class="menu__item">
                         <a href="./index.html" class="menu__link menu__link--main">Главная</a>
@@ -32,12 +32,13 @@
                         </a>
                     </li>
                     <li class="menu__item">
-                        <a href="./sercives.html" class="menu__link menu__link--services">Услуги
+                        <a href="./services.html"
+                           class="menu__link menu__link--services">Услуги
                         </a>
                     </li>
                 </ul>
             </nav>
-            <address class="contacts">
+            <address class="contacts col-one-third">
                 <a href="tel:+78000039210" class="contacts__phone">
                     8 (800) 00-392-10
                 </a>
@@ -52,22 +53,22 @@
         </div>
     </header>
     <!--Block header-->
-    <!--Breadcrums-->
-    <div class="breadcrums">
+    <!--Breadcrumbs-->
+    <div class="breadcrumbs">
         <div class="container container--min">
-            <nav class="breadcrums__navigation">
-                <ul class="breadcrums__list">
-                    <li class="breadcrums__item">
-                        <a href="./index.html" class="breadcrums__link">Главная</a>
+            <nav class="breadcrumbs__navigation">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item">
+                        <a href="./index.html" class="breadcrumbs__link">Главная</a>
                     </li>
-                    <li class="breadcrums__item breadcrums__item--active">
-                        <a href="#" class="breadcrums__link">Отзывы</a>
+                    <li class="breadcrumbs__item breadcrumbs__item--active">
+                        <a href="#" class="breadcrumbs__link">Отзывы</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </div>
-    <!--Breadcrums-->
+    <!--Breadcrumbs-->
     <main>
         <section class="reviews-block">
             <div class="container container--min">
@@ -77,7 +78,12 @@
                 <ul class="reviews article">
                         <li class="reviews__item article__item">
                             <article class="reviews__content article__content">
-                                <div class="reviews__image article__image"></div>
+                                <div class="article__image-data">
+                                    <div class="reviews__image article__image-wrap">
+                                        <img src="./assets/img/review-logo-1.jpg"
+                                             alt="Алексей Воронов" class="article__image">
+                                    </div>
+                                </div>
                                 <div class="reviews__info article__info">
                                     <time class="reviews__date article__date"
                                           datetime="2016-10-12">
@@ -92,7 +98,12 @@
                         </li>
                         <li class="reviews__item article__item">
                             <article class="reviews__content article__content">
-                                <div class="reviews__image article__image"></div>
+                                <div class="article__image-data">
+                                    <div class="reviews__image article__image-wrap">
+                                        <img src="./assets/img/review-logo-2.jpg"
+                                             alt="Инна Смольная" class="article__image">
+                                    </div>
+                                </div>
                                 <div class="reviews__info article__info">
                                     <time class="reviews__date article__date"
                                           datetime="2016-02-01">
@@ -107,7 +118,11 @@
                         </li>
                         <li class="reviews__item article__item">
                             <article class="reviews__content article__content">
-                                <div class="reviews__image article__image"></div>
+                                <div class="article__image-data">
+                                    <div
+                                            class="reviews__image article__image-wrap article__image-wrap--no-image">
+                                    </div>
+                                </div>
                                 <div class="reviews__info article__info">
                                     <time class="reviews__date article__date"
                                           datetime="2015-12-22">
@@ -122,7 +137,11 @@
                         </li>
                         <li class="reviews__item article__item">
                             <article class="reviews__content article__content">
-                                <div class="reviews__image article__image"></div>
+                                <div class="article__image-data">
+                                    <div class="reviews__image article__image-wrap">
+                                        <img src="./assets/img/review-logo-3.jpg" alt="Ирина Савина">
+                                    </div>
+                                </div>
                                 <div class="reviews__info article__info">
                                     <time class="reviews__date article__date"
                                           datetime="2015-08-14">
@@ -170,95 +189,103 @@
             </div>
         </section>
         <section class="cta bg-dark">
-            <div class="container container--min">
-                <p class="cta__info">
-                    Помимо перечисленных услуг, мы предоставляем консультации профессиональных
-                    диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с
-                    бассейном и возможность арендовать центр для проведения массовых мероприятий.
-                    <a href="#" class="cta__link">Ждем ваших заявок!</a>
-                </p>
-            </div>
+            <p class="cta__info">
+                Помимо перечисленных услуг, мы предоставляем консультации профессиональных
+                диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с
+                бассейном и возможность арендовать центр для проведения массовых мероприятий.
+                <a href="#" class="cta__link">Ждем ваших заявок!</a>
+            </p>
         </section>
         <section class="feedback">
-            <div class="container container--min">
-                <form action="post" method="" class="feedback__form">
-                    <h3 class="feedback__heading">Оставить отзыв</h3>
-                    <div class="feedback__row">
-                        <div class="feedback__col">
-                            <label for="name" class="feedback__label">Ваше имя</label>
-                            <input type="text" id="name" placeholder="Андрей"
-                                   class="feedback__input">
+            <form action="post" method="" class="feedback__form">
+                <h3 class="feedback__heading">Оставить отзыв</h3>
+                <div class="feedback__row">
+                    <div class="feedback__col">
+                        <label for="name" class="feedback__label">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Андрей"
+                               class="feedback__input">
+                    </div>
+                    <div class="feedback__col">
+                        <label for="vk" class="feedback__label">Ссылка на профиль VK</label>
+                        <input type="url" id="vk" placeholder="vk.com/example"
+                               class="feedback__input">
+                    </div>
+                </div>
+                <div class="feedback__row">
+                    <div class="feedback__col">
+                        <label for="review" class="feedback__label">Текст отзыва</label>
+                        <textarea name="review-text" id="review"
+                                  class="feedback__input feedback__input--textarea"
+                                  placeholder="Мне понравилось"></textarea>
+                    </div>
+                </div>
+                <div class="feedback__row">
+                    <div class="feedback__col">
+                        <p class="feedback__label">Отображать фото в отзыве?</p>
+                        <div class="feedback__radio-wrap">
+                            <input type="radio" id="yes" name="is_photo" class="feedback__radio visuallyhidden"
+                                   checked>
+                            <label for="yes" class="feedback__answer">Да</label>
                         </div>
-                        <div class="feedback__col">
-                            <label for="vk" class="feedback__label">Ссылка на профиль VK</label>
-                            <input type="url" id="vk" placeholder="vk.com/example"
-                                   class="feedback__input">
+                        <div class="feedback__radio-wrap">
+                            <input type="radio" id="no" name="is_photo" class="feedback__radio visuallyhidden">
+                            <label for="no" class="feedback__answer">Нет</label>
                         </div>
                     </div>
-                    <div class="feedback__row">
-                        <div class="feedback__col">
-                            <label for="review" class="feedback__label">Текст отзыва</label>
-                            <textarea name="review-text" id="review"
-                                      class="feedback__input feedback__input--textarea"
-                                      placeholder="Мне понравилось"></textarea>
-                        </div>
+                    <div class="feedback__col">
+                        <button type="submit" class="btn feedback__btn">Отправить</button>
                     </div>
-                    <div class="feedback__row">
-                        <div class="feedback__col">
-                            <p class="feedback__label">Отображать фото в отзыве?</p>
-                            <div class="feedback__radio-wrap">
-                                <input type="radio" id="yes" name="is_photo" class="feedback__radio" checked>
-                                <label for="yes" class="feedback__answer">Да</label>
-                            </div>
-                            <div class="feedback__radio-wrap">
-                                <input type="radio" id="no" name="is_photo" class="feedback__radio">
-                                <label for="no" class="feedback__answer">Нет</label>
-                            </div>
-                        </div>
-                        <div class="feedback__col">
-                            <button type="submit" class="btn feedback__btn">Отправить</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </section>
     </main>
     <footer class="footer bg-dark">
-        <div class="container footer__container">
-            <div class="general-info col-equal">
-                <p class="general-info__text">Сделано с любовью и старанием <br>
+        <div class="container container--flex">
+            <div class="general-info col-one-third">
+                <p class="general-info__text">Сделано с любовью и старанием
                     на курсе «HTML + CSS» в <a href="https://loftschool.com"
-                                               class="general-info__link"><span class="bold">
-                        LoftSchool</span></a>.</p>
-                <p class="general-info__text">Автор работы: <span class="bold">Прохладов
-                    Вадим</span></p>
+                                               class="general-info__link"><span
+                            class="bold">LoftSchool</span></a>.<br>
+                    Автор работы: <span class="bold">Прохладов
+                        Вадим</span></p>
             </div>
-            <div class="logo col-equal">
-                <a href="/" class="logo__link">Афродита</a>
+            <div class="logo logo--center col-one-third">
+                <a href="./index.html" class="logo__link">Афродита</a>
             </div>
-            <div class="social-contacts col-equal">
+            <div class="social-contacts col-one-third">
                 <div class="social-contacts__wrapper">
                     <h4 class="social-contacts__title">Наши социальные сети</h4>
                     <ul class="social-contacts__list">
                         <li class="social-contacts__item">
                             <a href="https://vk.com"
-                               class="social-contacts__link social-contacts__link--vk"></a>
+                               class="social-contacts__link social-contacts__link--vk">
+                                <span class="social-contacts__label hidden">Вконтакте</span>
+                            </a>
                         </li>
                         <li class="social-contacts__item">
                             <a href="https://facebook.com"
-                               class="social-contacts__link social-contacts__link--fb"></a>
+                               class="social-contacts__link social-contacts__link--fb">
+                                    <span class="social-contacts__label hidden">Фейсбук
+                                    </span>
+                            </a>
                         </li>
                         <li class="social-contacts__item">
                             <a href="https://plus.google.com"
-                               class="social-contacts__link social-contacts__link--google"></a>
+                               class="social-contacts__link social-contacts__link--google">
+                                <span class="social-contacts__label hidden">Гугл плюя</span>
+                            </a>
                         </li>
                         <li class="social-contacts__item">
                             <a href="https://twitter.com"
-                               class="social-contacts__link social-contacts__link--tw"></a>
+                               class="social-contacts__link social-contacts__link--tw">
+                                <span class="social-contacts__label hidden">Твитер</span>
+                            </a>
                         </li>
                         <li class="social-contacts__item">
                             <a href="mailto:"
-                               class="social-contacts__link social-contacts__link--mail"></a>
+                               class="social-contacts__link social-contacts__link--mail">
+                                <span class="social-contacts__label hidden">Почта</span>
+                            </a>
                         </li>
                     </ul>
                 </div>

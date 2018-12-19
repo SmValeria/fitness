@@ -4,6 +4,7 @@
 }
 
 .feedback__form {
+    width: 95%;
     max-width: 700px;
     margin: 0 auto;
     padding: 40px 70px 28px;
@@ -58,10 +59,6 @@
 .feedback__radio-wrap {
     display: inline-flex;
 }
-.feedback__radio {
-    position: absolute;
-    left: -150vw;
-}
 
 .feedback__answer {
     position: relative;
@@ -75,6 +72,7 @@
     height: 21px;
     border: 1px solid #c9c9c9;
     border-radius: 50%;
+    background-color: #ffffff;
     vertical-align: middle;
     margin-right: 5px;
 }
@@ -106,18 +104,5 @@
 }
 
 .feedback__btn {
-    padding: 16px 20px;
-    background-color: #1c1f1d;
-    border-radius: 4px;
-    color: #ffffff;
-    font-size: 0.857em;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    display: block;
     margin-left: auto;
-}
-
-.feedback__btn:hover {
-    background-color: #f89513;
 }

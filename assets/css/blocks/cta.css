@@ -1,10 +1,12 @@
 .cta {
     background-image: url('../../img/pattern-bg.png');
+    background-position: center center;
     padding-top: 21px;
     padding-bottom: 30px;
 }
 
 .cta__info {
+    width: 95%;
     max-width: 665px;
     margin: 0 auto;
     font-size: 1.286em;
