@@ -95,7 +95,7 @@ address {
 
 .container {
     width: 95%;
-    max-width: 1060px;
+    max-width: 1160px;
     margin: 0 auto;
 }
 
@@ -109,6 +109,11 @@ address {
 
 .col-one-third {
     flex-basis: calc(100%/3);
+    min-width: 300px;
+}
+
+.col-one-half {
+    flex-basis: 50%;
     min-width: 300px;
 }
 

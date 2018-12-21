@@ -1,0 +1,26 @@
+.page__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.page__col-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 22%;
+    min-width: 276px;
+    padding-top: 40px;
+}
+
+.page__col-left--pb-bigger {
+    padding-top: 50px;
+}
+
+.page__col-left--pb {
+    padding-top: 45px;
+}
+
+.page__col-right {
+    flex-basis: 75%;
+}

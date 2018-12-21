@@ -10,6 +10,7 @@
 
 .social-contacts__list {
     display: flex;
+    justify-content: center;
 }
 .social-contacts__item:not(:last-child) {
     margin-right: 10px;
@@ -21,7 +22,6 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #d0d0d0;
 }
 
 .social-contacts__link::before {
@@ -31,10 +31,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-image: url('../../img/sprites.png');
-}
-
-.social-contacts__link:hover {
-    background-color: #f89513;
 }
 
 .social-contacts__link--vk::before {

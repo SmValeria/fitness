@@ -19,26 +19,10 @@
     <!--Block header-->
     <header class="header bg-dark">
         <div class="container container--flex">
-            <div class="logo col-one-third">
+            <div class="logo col-one-half">
                 <a href="./index.html" class="logo__link">Афродита</a>
             </div>
-            <nav class="menu col-one-third">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a href="./index.html" class="menu__link menu__link--main">Главная</a>
-                    </li>
-                    <li class="menu__item menu__item--active">
-                        <a href="./reviews.html" class="menu__link menu__link--comments">Отзывы
-                        </a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="./services.html"
-                           class="menu__link menu__link--services">Услуги
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <address class="contacts col-one-third">
+            <address class="contacts col-one-half">
                 <a href="tel:+78000039210" class="contacts__phone">
                     8 (800) 00-392-10
                 </a>
@@ -53,195 +37,261 @@
         </div>
     </header>
     <!--Block header-->
-    <!--Breadcrumbs-->
-    <div class="breadcrumbs">
-        <div class="container container--min">
-            <nav class="breadcrumbs__navigation">
-                <ul class="breadcrumbs__list">
-                    <li class="breadcrumbs__item">
-                        <a href="./index.html" class="breadcrumbs__link">Главная</a>
-                    </li>
-                    <li class="breadcrumbs__item breadcrumbs__item--active">
-                        <a href="#" class="breadcrumbs__link">Отзывы</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <!--Breadcrumbs-->
     <main>
-        <section class="reviews-block">
-            <div class="container container--min">
-                <h2 class="section-title reviews-block__title">
-                    Отзывы
-                </h2>
-                <ul class="reviews article">
-                        <li class="reviews__item article__item">
-                            <article class="reviews__content article__content">
-                                <div class="article__image-data">
-                                    <div class="reviews__image article__image-wrap">
-                                        <img src="./assets/img/review-logo-1.jpg"
-                                             alt="Алексей Воронов" class="article__image">
-                                    </div>
-                                </div>
-                                <div class="reviews__info article__info">
-                                    <time class="reviews__date article__date"
-                                          datetime="2016-10-12">
-                                        12.10.2016
-                                    </time>
-                                    <h4 class="reviews__heading article__heading">Алексей Воронов</h4>
-                                    <p class="reviews__text article__text">
-                                        Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="reviews__item article__item">
-                            <article class="reviews__content article__content">
-                                <div class="article__image-data">
-                                    <div class="reviews__image article__image-wrap">
-                                        <img src="./assets/img/review-logo-2.jpg"
-                                             alt="Инна Смольная" class="article__image">
-                                    </div>
-                                </div>
-                                <div class="reviews__info article__info">
-                                    <time class="reviews__date article__date"
-                                          datetime="2016-02-01">
-                                        01.02.2016
-                                    </time>
-                                    <h4 class="reviews__heading article__heading">Инна Смольная</h4>
-                                    <p class="reviews__text article__text">
-                                        Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="reviews__item article__item">
-                            <article class="reviews__content article__content">
-                                <div class="article__image-data">
-                                    <div
-                                            class="reviews__image article__image-wrap article__image-wrap--no-image">
-                                    </div>
-                                </div>
-                                <div class="reviews__info article__info">
-                                    <time class="reviews__date article__date"
-                                          datetime="2015-12-22">
-                                        22.12.2015
-                                    </time>
-                                    <h4 class="reviews__heading article__heading">Владимир Савельев</h4>
-                                    <p class="reviews__text article__text">
-                                        Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
-                        <li class="reviews__item article__item">
-                            <article class="reviews__content article__content">
-                                <div class="article__image-data">
-                                    <div class="reviews__image article__image-wrap">
-                                        <img src="./assets/img/review-logo-3.jpg" alt="Ирина Савина">
-                                    </div>
-                                </div>
-                                <div class="reviews__info article__info">
-                                    <time class="reviews__date article__date"
-                                          datetime="2015-08-14">
-                                        14.08.2015
-                                    </time>
-                                    <h4 class="reviews__heading article__heading">Ирина Савина</h4>
-                                    <p class="reviews__text article__text">
-                                        Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
-                                    </p>
-                                </div>
-                            </article>
-                        </li>
+        <div class="page">
+            <div class="container">
+                <div class="page__content">
+                    <div class="page__col-left page__col-left--pb">
+                        <nav class="menu  menu--ml-bigger">
+                            <ul class="menu__list menu__list--mb">
+                                <li class="menu__item">
+                                    <a href="./index.html" class="menu__link menu__link--main">Главная</a>
+                                </li>
+                                <li class="menu__item menu__item--active">
+                                    <a href="./reviews.html" class="menu__link menu__link--comments">Отзывы
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="./services.html"
+                                       class="menu__link menu__link--services">Услуги
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <aside class="aside aside--mb--bigger">
+                            <section class="cta bg-dark">
+                                <p class="cta__info">
+                                    Помимо перечисленных услуг, мы предоставляем консультации профессиональных
+                                    диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с
+                                    бассейном и возможность арендовать центр для проведения массовых мероприятий.
+                                    <br><a href="#" class="cta__link">Ждем ваших заявок!</a>
+                                </p>
+                            </section>
+                        </aside>
+                        <!--Socials-->
+                        <div class="social-contacts">
+                            <div class="social-contacts__wrapper">
+                                <h4 class="social-contacts__title">Наши социальные сети</h4>
+                                <ul class="social-contacts__list">
+                                    <li class="social-contacts__item">
+                                        <a href="https://vk.com"
+                                           class="social-contacts__link social-contacts__link&#45;&#45;vk">
+                                            <span class="social-contacts__label hidden">Вконтакте</span>
+                                        </a>
+                                    </li>
+                                    <li class="social-contacts__item">
+                                        <a href="https://facebook.com"
+                                           class="social-contacts__link social-contacts__link&#45;&#45;fb">
+                                     <span class="social-contacts__label hidden">Фейсбук
+                                     </span>
+                                        </a>
+                                    </li>
+                                    <li class="social-contacts__item">
+                                        <a href="https://plus.google.com"
+                                           class="social-contacts__link social-contacts__link&#45;&#45;google">
+                                            <span class="social-contacts__label hidden">Гугл плюя</span>
+                                        </a>
+                                    </li>
+                                    <li class="social-contacts__item">
+                                        <a href="https://twitter.com"
+                                           class="social-contacts__link social-contacts__link&#45;&#45;tw">
+                                            <span class="social-contacts__label hidden">Твитер</span>
+                                        </a>
+                                    </li>
+                                    <li class="social-contacts__item">
+                                        <a href="mailto:"
+                                           class="social-contacts__link social-contacts__link&#45;&#45;mail">
+                                            <span class="social-contacts__label hidden">Почта</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--Socials-->
+                    </div>
+                    <div class="page__col-right">
+                        <!--Breadcrumbs-->
+                        <div class="breadcrumbs breadcrumbs--pl">
+                            <nav class="breadcrumbs__navigation">
+                                <ul class="breadcrumbs__list">
+                                    <li class="breadcrumbs__item">
+                                        <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                                    </li>
+                                    <li class="breadcrumbs__item breadcrumbs__item--active">
+                                        <a href="#" class="breadcrumbs__link">Отзывы</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--Breadcrumbs-->
+                        <section class="reviews-block">
+                            <h2 class="section-title reviews-block__title">
+                                Отзывы
+                            </h2>
+                            <ul class="article article--reviews">
+                                <li class="article__item">
+                                    <article class="article__content">
+                                        <div class="article__image-data">
+                                            <div class="article__image-wrap">
+                                                <img src="./assets/img/review-logo-1.jpg"
+                                                     alt="Алексей Воронов" class="article__image">
+                                            </div>
+                                        </div>
+                                        <div class="article__info">
+                                            <time class="article__date"
+                                                  datetime="2016-10-12">
+                                                12.10.2016
+                                            </time>
+                                            <h4 class="article__heading">Алексей Воронов</h4>
+                                            <p class="article__text">
+                                                Пришел, чтобы похудеть немного к лету, но благодаря тренеру Александру Ковалеву, получилось накачать нормальные банки. Втянулся, теперь занимаюсь регулярно, 2 раза в неделю, доволен и всем советую. Кстати, польза от тренировок намного заметнее, если придерживаться ПП. Рацион мне составили на неделю, но я его повторяю, не надоедает.
+                                            </p>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li class="article__item">
+                                    <article class="article__content">
+                                        <div class="article__image-data">
+                                            <div class="article__image-wrap">
+                                                <img src="./assets/img/review-logo-2.jpg"
+                                                     alt="Инна Смольная" class="article__image">
+                                            </div>
+                                        </div>
+                                        <div class="article__info">
+                                            <time class="article__date"
+                                                  datetime="2016-02-01">
+                                                01.02.2016
+                                            </time>
+                                            <h4 class="article__heading">Инна Смольная</h4>
+                                            <p class="article__text">
+                                                Подарили на день рождения абонемент в бассейн, пришлось воспользоваться. Сама бы я сюда не пришла, не очень нравится плавать с мужиками, которые пялятся постоянно, администрации следует обратить внимание на этот вопрос! Еще бросилось в глаза хамство обслуживающего персонала. Уборщица в раздевалке вела себя, как будто это к ней в гости пришли.
+                                            </p>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li class="article__item">
+                                    <article class="article__content">
+                                        <div class="article__image-data">
+                                            <div
+                                                    class="article__image-wrap article__image-wrap--no-image">
+                                            </div>
+                                        </div>
+                                        <div class="article__info">
+                                            <time class="article__date"
+                                                  datetime="2015-12-22">
+                                                22.12.2015
+                                            </time>
+                                            <h4 class="article__heading">Владимир Савельев</h4>
+                                            <p class="article__text">
+                                                Норм клуб, железа хватает, но техника устаревшая. За эту цену – прокатит. Если хотите большего, то обращайтесь в специализированные тренажерки с новым железом и европейской техникой.
+                                            </p>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li class="article__item">
+                                    <article class="article__content">
+                                        <div class="article__image-data">
+                                            <div class="article__image-wrap">
+                                                <img src="./assets/img/review-logo-3.jpg" alt="Ирина Савина">
+                                            </div>
+                                        </div>
+                                        <div class="article__info">
+                                            <time class="article__date"
+                                                  datetime="2015-08-14">
+                                                14.08.2015
+                                            </time>
+                                            <h4 class="article__heading">Ирина Савина</h4>
+                                            <p class="article__text">
+                                                Занимаюсь 4й месяц на петлях ТРХ и очень нравится результат. Даже знакомые отметили, что я помолодела, появилась талия, ножки постройнели. Нагрузка сначала была непривычная, но втягиваешься быстро, тем более, что отражение в зеркале радует. Цены приятные, а если платить на полгода вперед, то вообще выгодно получается, скидка почти 30%.
+                                            </p>
+                                        </div>
+                                    </article>
+                                </li>
 
-                    </ul>
-                <div class="pagination">
-                    <div class="pagination__text">Страница 1 из 7</div>
-                    <div class="pagination__controlls">
-                        <a href="#" class="pagination__prev"></a>
-                        <ul class="pagination__list">
-                            <li class="pagination__item pagination__item--active">
-                                <a href="#" class="pagination__link">1</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">2</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">3</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">4</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">5</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">6</a>
-                            </li>
-                            <li class="pagination__item">
-                                <a href="#" class="pagination__link">7</a>
-                            </li>
-                        </ul>
-                        <a href="" class="pagination__next"></a>
+                            </ul>
+                            <div class="pagination pagination--ml">
+                                <div class="pagination__text">Страница 1 из 7</div>
+                                <div class="pagination__controlls">
+                                    <a href="#" class="pagination__prev"></a>
+                                    <ul class="pagination__list">
+                                        <li class="pagination__item pagination__item--active">
+                                            <a href="#" class="pagination__link">1</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">2</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">3</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">4</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">5</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">6</a>
+                                        </li>
+                                        <li class="pagination__item">
+                                            <a href="#" class="pagination__link">7</a>
+                                        </li>
+                                    </ul>
+                                    <a href="" class="pagination__next"></a>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="feedback">
+                            <form action="post" method="" class="feedback__form">
+                                <h3 class="feedback__heading">Оставить отзыв</h3>
+                                <div class="feedback__row">
+                                    <div class="feedback__col">
+                                        <label for="name" class="feedback__label">Ваше имя</label>
+                                        <input type="text" id="name" placeholder="Андрей"
+                                               class="feedback__input">
+                                    </div>
+                                    <div class="feedback__col">
+                                        <label for="vk" class="feedback__label">Ссылка на профиль VK</label>
+                                        <input type="url" id="vk" placeholder="vk.com/example"
+                                               class="feedback__input">
+                                    </div>
+                                </div>
+                                <div class="feedback__row">
+                                    <div class="feedback__col">
+                                        <label for="review" class="feedback__label">Текст отзыва</label>
+                                        <textarea name="review-text" id="review"
+                                                  class="feedback__input feedback__input--textarea"
+                                                  placeholder="Мне понравилось"></textarea>
+                                    </div>
+                                </div>
+                                <div class="feedback__row">
+                                    <div class="feedback__col">
+                                        <p class="feedback__label">Отображать фото в отзыве?</p>
+                                        <div class="feedback__radio-wrap">
+                                            <input type="radio" id="yes" name="is_photo" class="feedback__radio visuallyhidden"
+                                                   checked>
+                                            <label for="yes" class="feedback__answer">Да</label>
+                                        </div>
+                                        <div class="feedback__radio-wrap">
+                                            <input type="radio" id="no" name="is_photo" class="feedback__radio visuallyhidden">
+                                            <label for="no" class="feedback__answer">Нет</label>
+                                        </div>
+                                    </div>
+                                    <div class="feedback__col">
+                                        <button type="submit" class="btn feedback__btn">Отправить</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="cta bg-dark">
-            <p class="cta__info">
-                Помимо перечисленных услуг, мы предоставляем консультации профессиональных
-                диетологов, тренеров, психологов. Также есть кабинет массажа, зал спа рядом с
-                бассейном и возможность арендовать центр для проведения массовых мероприятий.
-                <a href="#" class="cta__link">Ждем ваших заявок!</a>
-            </p>
-        </section>
-        <section class="feedback">
-            <form action="post" method="" class="feedback__form">
-                <h3 class="feedback__heading">Оставить отзыв</h3>
-                <div class="feedback__row">
-                    <div class="feedback__col">
-                        <label for="name" class="feedback__label">Ваше имя</label>
-                        <input type="text" id="name" placeholder="Андрей"
-                               class="feedback__input">
-                    </div>
-                    <div class="feedback__col">
-                        <label for="vk" class="feedback__label">Ссылка на профиль VK</label>
-                        <input type="url" id="vk" placeholder="vk.com/example"
-                               class="feedback__input">
-                    </div>
-                </div>
-                <div class="feedback__row">
-                    <div class="feedback__col">
-                        <label for="review" class="feedback__label">Текст отзыва</label>
-                        <textarea name="review-text" id="review"
-                                  class="feedback__input feedback__input--textarea"
-                                  placeholder="Мне понравилось"></textarea>
-                    </div>
-                </div>
-                <div class="feedback__row">
-                    <div class="feedback__col">
-                        <p class="feedback__label">Отображать фото в отзыве?</p>
-                        <div class="feedback__radio-wrap">
-                            <input type="radio" id="yes" name="is_photo" class="feedback__radio visuallyhidden"
-                                   checked>
-                            <label for="yes" class="feedback__answer">Да</label>
-                        </div>
-                        <div class="feedback__radio-wrap">
-                            <input type="radio" id="no" name="is_photo" class="feedback__radio visuallyhidden">
-                            <label for="no" class="feedback__answer">Нет</label>
-                        </div>
-                    </div>
-                    <div class="feedback__col">
-                        <button type="submit" class="btn feedback__btn">Отправить</button>
-                    </div>
-                </div>
-            </form>
-        </section>
+        </div>
+
+
     </main>
     <footer class="footer bg-dark">
         <div class="container container--flex">
-            <div class="general-info col-one-third">
+            <div class="general-info col-one-half">
                 <p class="general-info__text">Сделано с любовью и старанием
                     на курсе «HTML + CSS» в <a href="https://loftschool.com"
                                                class="general-info__link"><span
@@ -249,46 +299,8 @@
                     Автор работы: <span class="bold">Прохладов
                         Вадим</span></p>
             </div>
-            <div class="logo logo--center col-one-third">
+            <div class="logo logo--right col-one-half">
                 <a href="./index.html" class="logo__link">Афродита</a>
-            </div>
-            <div class="social-contacts col-one-third">
-                <div class="social-contacts__wrapper">
-                    <h4 class="social-contacts__title">Наши социальные сети</h4>
-                    <ul class="social-contacts__list">
-                        <li class="social-contacts__item">
-                            <a href="https://vk.com"
-                               class="social-contacts__link social-contacts__link--vk">
-                                <span class="social-contacts__label hidden">Вконтакте</span>
-                            </a>
-                        </li>
-                        <li class="social-contacts__item">
-                            <a href="https://facebook.com"
-                               class="social-contacts__link social-contacts__link--fb">
-                                    <span class="social-contacts__label hidden">Фейсбук
-                                    </span>
-                            </a>
-                        </li>
-                        <li class="social-contacts__item">
-                            <a href="https://plus.google.com"
-                               class="social-contacts__link social-contacts__link--google">
-                                <span class="social-contacts__label hidden">Гугл плюя</span>
-                            </a>
-                        </li>
-                        <li class="social-contacts__item">
-                            <a href="https://twitter.com"
-                               class="social-contacts__link social-contacts__link--tw">
-                                <span class="social-contacts__label hidden">Твитер</span>
-                            </a>
-                        </li>
-                        <li class="social-contacts__item">
-                            <a href="mailto:"
-                               class="social-contacts__link social-contacts__link--mail">
-                                <span class="social-contacts__label hidden">Почта</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
             </div>
         </div>
     </footer>

@@ -1,20 +1,56 @@
+.article--news {
+    font-family: 'Roboto', sans-serif;
+}
+
+.article--reviews {
+    margin-bottom: 26px;
+}
+.article--news .article__date{
+    margin-bottom: 8px;
+}
+
+.article--reviews .article__date {
+    margin-bottom: 5px;
+}
+
+.article--reviews .article__item {
+    padding-bottom: 21px;
+}
+
 .article__content {
     display: flex;
 }
+
+.article__item {
+    padding-bottom: 17px;
+}
+
 .article__item:not(:last-child) {
     border-bottom: 2px solid #f5f5f5;
     margin-bottom: 28px;
 }
 
+.article--reviews .article__image-data{
+    flex-basis: 22.5%;
+}
+
+.article--reviews .article__info {
+    flex-basis: 77.5%;
+}
+
 .article__image-data {
-    flex-basis: 20.5%;
+    flex-basis: 23.5%;
 }
 
 .article__image-wrap {
-    max-width: 160px;
+    max-width: 173px;
     background-color: #f5f5f5;
     border-radius: 50%;
     overflow: hidden;
+}
+
+.article__image {
+    width: 100%;
 }
 
 .article__image-wrap--no-image::before {
@@ -30,7 +66,7 @@
 }
 
 .article__info {
-    flex-basis: 79.5%;
+    flex-basis: 76.5%;
     color: #221f1f;
     font-weight: 300;
 }

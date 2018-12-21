@@ -1,11 +1,15 @@
+.services {
+    padding-left: 5px;
+    padding-right: 22px;
+}
 .services__heading {
     margin-bottom: 40px;
 }
 .services__list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: -23px;
+    margin-right: -23px;
 }
 
 .services__item {
@@ -15,8 +19,8 @@
     flex-basis: 250px;
     flex-grow: 1;
     margin-bottom: 45px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 23px;
+    padding-right: 23px;
 }
 
 .services__image-block {

@@ -1,10 +1,11 @@
 .top-news {
-    width: 160px;
+    width: 171px;
     font-size: 0.857em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     line-height: 1.4em;
+    text-align: center;
 }
 
 .top-news__heading {
@@ -22,9 +23,12 @@
 }
 
 .top-news__item {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
+.top-news__img {
+    width: 100%;
+}
 .top-news__link {
     position: relative;
     display: block;

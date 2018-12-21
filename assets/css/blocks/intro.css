@@ -15,7 +15,7 @@
     align-items: center;
     animation-name: appearance, pulse;
     animation-fill-mode: backwards, both;
-    animation-duration: 1s, 0.2s;
+    animation-duration: 1s, 0.15s;
     animation-delay: 1s, 1.3s;
     animation-timing-function: cubic-bezier(.39,-0.31,.37,1.22);
     animation-iteration-count: 1, 6;

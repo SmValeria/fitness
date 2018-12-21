@@ -9,3 +9,11 @@
 .logo--center {
     text-align: center;
 }
+
+.logo--right{
+    text-align: right;
+}
+
+.logo__link--ml {
+    margin-left: 30px;
+}

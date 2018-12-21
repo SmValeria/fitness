@@ -2,18 +2,20 @@
 @import url('./layout/normalize.css');
 @import url('./layout/base.css');
 
-@import url('blocks/intro.css');
+
+@import url('./blocks/page.css');
+@import url('./blocks/aside.css');
+@import url('./blocks/intro.css');
 @import url('./blocks/header.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/menu.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/schedule.css');
-@import url('blocks/breadcrumbs.css');
-@import url('blocks/article.css');
+@import url('./blocks/breadcrumbs.css');
+@import url('./blocks/article.css');
 @import url('./blocks/hero.css');
 @import url('./blocks/features.css');
 @import url('./blocks/news-block.css');
-@import url('./blocks/news.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/top-news.css');
 @import url('./blocks/pagination.css');
@@ -22,7 +24,6 @@
 @import url('./blocks/sercives.css');
 @import url('./blocks/partners.css');
 @import url('./blocks/reviews-block.css');
-@import url('./blocks/reviews.css');
 @import url('./blocks/cta.css');
 @import url('./blocks/feedback.css');
 
@@ -51,54 +52,5 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 965px)  {
-  .container--flex {
-    justify-content: center;
-  }
 
-  .col-one-third {
-    flex-basis: 100%;
-  }
-
-  .col-one-third:not(:last-child) {
-    margin-bottom: 15px;
-  }
-
-  .logo {
-    text-align: center;
-  }
-
-  .social-contacts {
-    justify-content: center;
-  }
-
-  .general-info__text {
-    max-width: none;
-    text-align: center;
-  }
-
-  .menu__list {
-    padding-left: 0;
-    justify-content: center;
-  }
-
-  .news-block__col-2 {
-    flex-basis: 100%;
-  }
-
-  .top-news {
-    width: 100%;
-  }
-  .top-news__list {
-    display: flex;
-    justify-content: space-around;
-  }
-
-}
-
-@media screen and (max-width: 694px) {
-  .features__list {
-    justify-content: center;
-  }
-}
 
