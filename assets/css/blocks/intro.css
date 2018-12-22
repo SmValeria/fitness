@@ -13,38 +13,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    animation-name: appearance, pulse;
-    animation-fill-mode: backwards, both;
-    animation-duration: 1s, 0.15s;
-    animation-delay: 1s, 1.3s;
+    animation-name: pulse;
+    animation-fill-mode: both;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
     animation-timing-function: cubic-bezier(.39,-0.31,.37,1.22);
-    animation-iteration-count: 1, 6;
-    animation-direction: alternate;
 }
 
 .intro__logo {
     margin-bottom: 40px;
 }
 
+.intro__text {
+    color: #ffffff;
+}
 .intro__link:hover {
     color: inherit;
 }
 
 @keyframes pulse {
     from {
+        opacity: 0;
         transform: scale(0.9);
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    75% {
+        transform: scale(1.1);
     }
     to {
         transform: scale(1);
-    }
-}
-
-@keyframes appearance {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-        transform: scale(0.9);
     }
 }
