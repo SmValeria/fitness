@@ -22,8 +22,8 @@
     border-radius: 4px 0 4px 4px;
     line-height: 1.4em;
     opacity: 0;
-    transition: top 0.7s cubic-bezier(.57,-0.35,.46,1.29),
-                opacity 1s ease-in;
+    transition: top 1s cubic-bezier(.57,-0.35,.46,1.29),
+                opacity 0.8s ease-in;
 }
 
 .schedule__dropdown::before {
@@ -67,4 +67,6 @@
 .schedule:hover .schedule__dropdown {
     top: 240%;
     opacity: 1;
+    transition: top 0.8s cubic-bezier(.27,.38,.32,1.25),
+    opacity 0.9s ease-in;
 }

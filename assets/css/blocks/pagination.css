@@ -37,6 +37,7 @@
 .pagination__prev {
     transform: rotate(180deg);
     opacity: 0.3;
+    cursor: default;
 }
 
 .pagination__item {
@@ -49,5 +50,8 @@
     background-color: #27273e;
     color: #f89513;
     border-radius: 2px;
+}
+
+.pagination__item--active .pagination__link{
     cursor: default;
 }

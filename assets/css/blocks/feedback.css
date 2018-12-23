@@ -46,8 +46,7 @@
     border: 1px solid transparent;
 }
 
-.feedback__input:focus,
-.feedback__input--textarea {
+.feedback__input:focus {
     border: 1px solid #f89513;
 }
 
